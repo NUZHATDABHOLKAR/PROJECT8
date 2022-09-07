@@ -1,0 +1,165 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family:"Roboto",sans-serif;
+}
+ 
+.bgimage{
+  float:right; 
+   z-index: -2; 
+ }  
+ .main-div{
+  position:fixed;
+ }
+.navbar{
+  /* border:2px solid rgb(0, 0, 0); */
+  width:75rem;
+  margin-left: 7.5rem;
+  margin-top:2.1875rem;
+  display:flex;
+  justify-content:space-between;
+}
+.nav-items{
+  /* border:2px solid rgb(0, 0, 0); */
+  margin-left: 3.75rem;
+  margin-top: 0.9375rem;
+  display:flex;
+  justify-content: space-between;
+}
+.nav-item{
+  /* border:2px solid blue; */
+  margin-left:2.5rem;
+  display:flex;
+  justify-content: space-between;
+  color:#1f003b;
+}
+.signin-btn{
+  /* border:2px solid rgb(0, 0, 0); */
+  margin-right: 5rem;
+  background-image:linear-gradient(to right,#8D3DAF,#E1A2B8);
+  width:5rem;
+  height:4.375rem;
+  border-radius: 0.75rem;
+  border:transparent;
+  text-align: center;
+  color:#fff;
+  margin-top:0.4375rem;
+  font-size:1rem;
+}
+.intro-section{
+  display:flex;
+  justify-content:space-between;
+}
+h1{
+  margin-left: 7.5rem;
+  font-size:4rem;
+  color:#160028;
+  margin-top: 9.375rem;
+}
+h4{
+  margin-left: 7.5rem;
+  font-size:0.7rem;
+  color:#160028;
+  margin-top: 1.875rem;
+}
+.learn-more-btn{
+  margin-left: 7.5rem;
+  margin-top: 1.875rem;
+  background-image:linear-gradient(to right,#8D3DAF,#E1A2B8);
+  border:transparent;
+  border-radius: 0.75rem;
+  width:7.5rem;
+  height:3.125rem;
+  font-size:1rem;
+}
+.vector-img{
+  position:fixed;
+  left:34.375rem;
+  top:31.25rem;
+}
+.vector-dot{
+  position:fixed;
+  left:37.5rem;
+  top:31.875rem; 
+}
+.background{
+  width:50rem;
+  height:40.625rem;
+}
+.logo{
+  width:6.5625rem;
+  height:2.8125rem;
+}
+.vector-img{
+  width:6.125rem;
+  height:7.3125rem;
+}
+.intro-img{
+  width:50rem;
+  height:40.625rem;
+}
+@media only screen and (max-width: 1270px) {
+  html {
+     font-size:57%;
+  }
+}
+ @media only screen and (max-width: 1074px) {
+  html {
+     font-size:57%;
+  }
+}
+ @media only screen and (max-width: 998px) {
+  html {
+     font-size:55%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+     font-size:45%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  html {
+     font-size:35%;
+  }
+}
+@media only screen and (max-width: 468px) {
+  html {
+     font-size:30%;
+  }
+}
+@media only screen and (max-width: 384px) {
+  html {
+     font-size:20.5%;
+  }
+}
+@media only screen and (max-width: 268px) {
+  html {
+     font-size:17%;
+  }
+}
+@media only screen and (max-width: 228px) {
+  html {
+     font-size:15%;
+  }
+}
+@media only screen and (max-width: 192px) {
+  html {
+     font-size:11.25%;
+  }
+}
+@media only screen and (max-width: 130px) {
+  html {
+     font-size:8.25%;
+  }
+}
+@media only screen and (max-width: 100px) {
+  html {
+     font-size:6.25%;
+  }
+}
+@media only screen and (max-width: 50px) {
+  html {
+     font-size:3.25%;
+  }
+}
